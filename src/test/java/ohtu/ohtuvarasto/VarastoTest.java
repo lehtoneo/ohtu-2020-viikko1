@@ -36,6 +36,7 @@ public class VarastoTest {
     }
     @Test
     public void alkuSaldollaTilavuusOikein() {
+        
         assertEquals(10, varastoAlkuSaldolla.getTilavuus(), vertailuTarkkuus);
     }
     
