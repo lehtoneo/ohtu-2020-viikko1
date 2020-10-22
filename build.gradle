@@ -11,7 +11,11 @@ dependencies {
 
     implementation 'com.google.guava:guava:29.0-jre' 
 }
-
+jar {
+    manifest {
+        attributes 'Main-Class': 'ohtu.ohtuvarasto.Main'
+    }
+}
 application {
     mainClass = 'ohtu.ohtuvarasto.Main'
 }
