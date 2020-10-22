@@ -132,7 +132,7 @@ public class VarastoTest {
     @Test
     public void toStringToimiiOikein() {
         Varasto v = new Varasto(10, 1);
-        String haluttu = "saldo= " + 1 + ", vielÃ¤ tilaa " + 9;
+        String haluttu = "sal do= " + 1 + ", vielÃ¤ tilaa " + 9;
         System.out.println(haluttu);
         System.out.println(v.toString());
         assertEquals(1, 1);
